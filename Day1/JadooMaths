@@ -1,0 +1,20 @@
+
+
+// Write your code here
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+    int n;
+
+    cin>>n;
+
+    while(n++ && (n%3==0 || n%10==3 || (n%100)/10==3));
+
+    cout<<n;
+
+}
