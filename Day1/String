@@ -1,0 +1,20 @@
+import java.util.*;
+
+
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+        
+        Scanner sc = new Scanner(System.in);
+        // Write your code here
+        String s=sc.nextLine();
+        String reverse="";
+        int size=s.length();
+                for(int i=size-1;i>=0;i--)
+                {
+                    reverse=reverse+s.charAt(i);
+                }
+                System.out.println(reverse);
+            
+
+    }
+}
