@@ -1,1 +1,48 @@
 
+import java.util.*;
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+
+        // Write your code here
+       
+		Scanner s=new Scanner(System.in);
+
+long n = s.nextLong();
+
+long a,b,c,d,e,f,g;
+
+a=s.nextLong();
+
+b=s.nextLong();
+
+c=s.nextLong();
+
+d=s.nextLong();
+
+e=s.nextLong();
+
+f=s.nextLong();
+
+g=s.nextLong();
+
+ 
+
+ 
+
+if(a+(n-b)*c<=e+(n/d)*f+(n*g)){
+
+System.out.print("Online Taxi");
+
+}else{
+
+System.out.print("Classic Taxi");
+
+}
+
+ 
+
+}
+	
+}
+
+
