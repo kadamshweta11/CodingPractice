@@ -1,0 +1,33 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+        System.out.println("enter the elements=");
+        int n=sc.nextInt();
+        int arr[]=new int[10];
+        System.out.println("enter the array numbers=");
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        System.out.println("array elements are=");
+             for(int j=0;j<n;j++)
+            {
+            System.out.print(arr[j]+"  ");
+            }
+            System.out.println();
+        System.out.println("reverse array is=");
+        for(int k=n-1;k>=0;k--)
+        {
+            System.out.print(arr[k]+"  ");
+        }
+	}
+}
