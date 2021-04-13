@@ -1,0 +1,27 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number=");
+       int num=sc.nextInt();
+       boolean isboolean=true;
+       if(num==0 || num==1)
+       {
+           System.out.println("it is not prime number");
+       }
+       for(int i=2;i<num/2;i++)
+       {
+           if(num%i==0)
+           {
+               isboolean=false;
+           }
+       }
+       if(isboolean)
+       {
+            System.out.println("it is prime number");
+       }
+       else{
+            System.out.println("it is not prime number");
+       }
+    }
+}
