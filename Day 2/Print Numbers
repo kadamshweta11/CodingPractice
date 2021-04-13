@@ -1,0 +1,27 @@
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+//import for Scanner and other utility classes
+import java.util.*;
+
+
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+        
+        //Scanner
+        Scanner sc = new Scanner(System.in);
+
+        // Write your code here
+            int size=sc.nextInt();
+            int arr[]=new int[size];
+            for(int i=0;i<size;i++)
+            {
+                arr[i]=sc.nextInt();
+            }
+            for(int j=0;j<size;j++)
+            {
+                System.out.print(arr[j]+" ");
+            }
+    }
+}
