@@ -56,3 +56,25 @@ Sample Output
 Explanation
 
 When we save each integer to its corresponding index in , we get . The locked code prints each array element on a new line from left to right.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+3)in a high school a teacher was give a task to calculate average marks of students for the school help her to with a code which can take 
+inputs of student marks and give average marks as an output 
+input
+the first line contain the number of students
+the second line contain the marks seperated with spaces
+Output
+the output contain the calculated average marks
+Sample Input
+
+5
+34
+12
+56
+98
+67
+
+Output
+53
+
